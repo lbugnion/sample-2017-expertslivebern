@@ -1,0 +1,147 @@
+<UserSettings><ApplicationIdentity version="14.0"/><ToolsOptions/><Category name="Environment_Group" RegisteredName="Environment_Group"><Category name="Environment_Toolbox" Category="{481999F2-7479-4e03-83D5-BE808BA142DF}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_Toolbox" PackageName="Visual Studio Environment Package"><PropertyValue name="ShowAllTabs">false</PropertyValue><PropertyValue name="Version">1</PropertyValue><PropertyValue name="DeletedTabCount">0</PropertyValue><PropertyValue name="Tab0.Name">Other Widgets</PropertyValue><PropertyValue name="Tab0.View">0</PropertyValue><PropertyValue name="Tab0.UseDefaultName">true</PropertyValue><PropertyValue name="Tab0.RecordType">1</PropertyValue><PropertyValue name="Tab0.Position">36</PropertyValue><PropertyValue name="Tab1.Name">Images &amp; Media</PropertyValue><PropertyValue name="Tab1.View">0</PropertyValue><PropertyValue name="Tab1.UseDefaultName">true</PropertyValue><PropertyValue name="Tab1.RecordType">1</PropertyValue><PropertyValue name="Tab1.Position">37</PropertyValue><PropertyValue name="Tab2.Name">Layouts</PropertyValue><PropertyValue name="Tab2.View">0</PropertyValue><PropertyValue name="Tab2.UseDefaultName">true</PropertyValue><PropertyValue name="Tab2.RecordType">1</PropertyValue><PropertyValue name="Tab2.Position">38</PropertyValue><PropertyValue name="Tab3.Name">Composite</PropertyValue><PropertyValue name="Tab3.View">0</PropertyValue><PropertyValue name="Tab3.UseDefaultName">true</PropertyValue><PropertyValue name="Tab3.RecordType">1</PropertyValue><PropertyValue name="Tab3.Position">39</PropertyValue><PropertyValue name="Tab4.Name">Advanced</PropertyValue><PropertyValue name="Tab4.View">0</PropertyValue><PropertyValue name="Tab4.UseDefaultName">true</PropertyValue><PropertyValue name="Tab4.RecordType">1</PropertyValue><PropertyValue name="Tab4.Position">40</PropertyValue><PropertyValue name="Tab5.Name">Form Widgets</PropertyValue><PropertyValue name="Tab5.View">0</PropertyValue><PropertyValue name="Tab5.UseDefaultName">true</PropertyValue><PropertyValue name="Tab5.RecordType">1</PropertyValue><PropertyValue name="Tab5.Position">41</PropertyValue><PropertyValue name="Tab6.Name">Text Fields</PropertyValue><PropertyValue name="Tab6.View">0</PropertyValue><PropertyValue name="Tab6.UseDefaultName">true</PropertyValue><PropertyValue name="Tab6.RecordType">1</PropertyValue><PropertyValue name="Tab6.Position">42</PropertyValue><PropertyValue name="Tab7.Name">Time &amp; Date</PropertyValue><PropertyValue name="Tab7.View">0</PropertyValue><PropertyValue name="Tab7.UseDefaultName">true</PropertyValue><PropertyValue name="Tab7.RecordType">1</PropertyValue><PropertyValue name="Tab7.Position">43</PropertyValue><PropertyValue name="Tab8.Name">Other Layouts</PropertyValue><PropertyValue name="Tab8.View">0</PropertyValue><PropertyValue name="Tab8.UseDefaultName">true</PropertyValue><PropertyValue name="Tab8.RecordType">1</PropertyValue><PropertyValue name="Tab8.Position">44</PropertyValue><PropertyValue name="Tab9.ID">Control Flow</PropertyValue><PropertyValue name="Tab9.Name">Control Flow</PropertyValue><PropertyValue name="Tab9.View">0</PropertyValue><PropertyValue name="Tab9.UseDefaultName">true</PropertyValue><PropertyValue name="Tab9.RecordType">4</PropertyValue><PropertyValue name="Tab9.Position">45</PropertyValue><PropertyValue name="TabCount">10</PropertyValue><PropertyValue name="DeletedItemCount">0</PropertyValue><PropertyValue name="Item0.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item0.ID">CEB89B93FA4281120D51AAAF4211D937</PropertyValue><PropertyValue name="Item0.Name">-- Cursor -------------------------------------------</PropertyValue><PropertyValue name="Item0.UseDefaultName">true</PropertyValue><PropertyValue name="Item0.Tab">General</PropertyValue><PropertyValue name="Item0.TabID">General</PropertyValue><PropertyValue name="Item0.OriginalTabID">General</PropertyValue><PropertyValue name="Item0.OriginalTab">General</PropertyValue><PropertyValue name="Item0.RecordType">1</PropertyValue><PropertyValue name="Item0.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item0.Position">1</PropertyValue><PropertyValue name="Item1.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item1.ID">4211D9376E0578C58672CC6B0D51AAAF</PropertyValue><PropertyValue name="Item1.Name">Fields 1</PropertyValue><PropertyValue name="Item1.UseDefaultName">true</PropertyValue><PropertyValue name="Item1.Tab">General</PropertyValue><PropertyValue name="Item1.TabID">General</PropertyValue><PropertyValue name="Item1.OriginalTabID">General</PropertyValue><PropertyValue name="Item1.OriginalTab">General</PropertyValue><PropertyValue name="Item1.RecordType">1</PropertyValue><PropertyValue name="Item1.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+
+</PropertyValue><PropertyValue name="Item1.Position">2</PropertyValue><PropertyValue name="Item2.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item2.ID">0C7430B46A27B39FD1B34A561F6CDA10</PropertyValue><PropertyValue name="Item2.Name">Fields 2</PropertyValue><PropertyValue name="Item2.UseDefaultName">true</PropertyValue><PropertyValue name="Item2.Tab">General</PropertyValue><PropertyValue name="Item2.TabID">General</PropertyValue><PropertyValue name="Item2.OriginalTabID">General</PropertyValue><PropertyValue name="Item2.OriginalTab">General</PropertyValue><PropertyValue name="Item2.RecordType">1</PropertyValue><PropertyValue name="Item2.Data">
+    private GestureRecognizer _gestureRecognizer;
+    private RaycastHit _hitInfo;
+    private GameObject _focusedObject;
+</PropertyValue><PropertyValue name="Item2.Position">3</PropertyValue><PropertyValue name="Item3.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item3.ID">033710BD6AED1F183213470FD0CE4AEA</PropertyValue><PropertyValue name="Item3.Name">-&gt; Start</PropertyValue><PropertyValue name="Item3.UseDefaultName">true</PropertyValue><PropertyValue name="Item3.Tab">General</PropertyValue><PropertyValue name="Item3.TabID">General</PropertyValue><PropertyValue name="Item3.OriginalTabID">General</PropertyValue><PropertyValue name="Item3.OriginalTab">General</PropertyValue><PropertyValue name="Item3.RecordType">1</PropertyValue><PropertyValue name="Item3.Data">        _gestureRecognizer = new GestureRecognizer();
+        _gestureRecognizer.TappedEvent += GestureRecognizerOnTappedEvent;
+        _gestureRecognizer.SetRecognizableGestures(GestureSettings.Tap);
+        _gestureRecognizer.StartCapturingGestures();
+</PropertyValue><PropertyValue name="Item3.Position">4</PropertyValue><PropertyValue name="Item4.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item4.ID">32820FA8110FAE8787289F03C50C2F84</PropertyValue><PropertyValue name="Item4.Name">-&gt; Update 1</PropertyValue><PropertyValue name="Item4.UseDefaultName">true</PropertyValue><PropertyValue name="Item4.Tab">General</PropertyValue><PropertyValue name="Item4.TabID">General</PropertyValue><PropertyValue name="Item4.OriginalTabID">General</PropertyValue><PropertyValue name="Item4.OriginalTab">General</PropertyValue><PropertyValue name="Item4.RecordType">1</PropertyValue><PropertyValue name="Item4.Data">	    if (TheCursor == null)
+	    {
+	        return;
+	    }
+
+        var headPosition = Camera.main.transform.position;
+        var gazeDirection = Camera.main.transform.forward;
+        var cursorRenderer = TheCursor.GetComponent&lt;Renderer&gt;();
+</PropertyValue><PropertyValue name="Item4.Position">5</PropertyValue><PropertyValue name="Item5.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item5.ID">BEA40D5D5EBA50E06D01EBF16FA3CE4F</PropertyValue><PropertyValue name="Item5.Name">-&gt; Update 2</PropertyValue><PropertyValue name="Item5.UseDefaultName">true</PropertyValue><PropertyValue name="Item5.Tab">General</PropertyValue><PropertyValue name="Item5.TabID">General</PropertyValue><PropertyValue name="Item5.OriginalTabID">General</PropertyValue><PropertyValue name="Item5.OriginalTab">General</PropertyValue><PropertyValue name="Item5.RecordType">1</PropertyValue><PropertyValue name="Item5.Data">
+        if (Physics.Raycast(headPosition, gazeDirection, out _hitInfo))
+        {
+        }
+        else
+        {
+        }
+</PropertyValue><PropertyValue name="Item5.Position">6</PropertyValue><PropertyValue name="Item6.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item6.ID">11D5E1F46C8D872C46093319B9369966</PropertyValue><PropertyValue name="Item6.Name">-&gt; if Physics.Raycast</PropertyValue><PropertyValue name="Item6.UseDefaultName">true</PropertyValue><PropertyValue name="Item6.Tab">General</PropertyValue><PropertyValue name="Item6.TabID">General</PropertyValue><PropertyValue name="Item6.OriginalTabID">General</PropertyValue><PropertyValue name="Item6.OriginalTab">General</PropertyValue><PropertyValue name="Item6.RecordType">1</PropertyValue><PropertyValue name="Item6.Data">            // If the raycast hit a hologram, use that as the focused object.
+            // But not the spatial mapping!
+            _focusedObject = _hitInfo.collider.gameObject;
+
+            cursorRenderer.material = ActiveCursorMaterial;
+            TheCursor.transform.position = _hitInfo.point;
+            TheCursor.transform.forward = _hitInfo.normal;
+</PropertyValue><PropertyValue name="Item6.Position">7</PropertyValue><PropertyValue name="Item7.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item7.ID">A3035D6E830118747AEAF239BA825F03</PropertyValue><PropertyValue name="Item7.Name">-&gt; else Physics.Raycast</PropertyValue><PropertyValue name="Item7.UseDefaultName">false</PropertyValue><PropertyValue name="Item7.Tab">General</PropertyValue><PropertyValue name="Item7.TabID">General</PropertyValue><PropertyValue name="Item7.OriginalTabID">General</PropertyValue><PropertyValue name="Item7.OriginalTab">General</PropertyValue><PropertyValue name="Item7.RecordType">1</PropertyValue><PropertyValue name="Item7.Data">            cursorRenderer.material = InactiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item7.Position">8</PropertyValue><PropertyValue name="Item8.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item8.ID">CEB89B93FA4281120D51AAAF4211D937</PropertyValue><PropertyValue name="Item8.Name">-- HOLO101A -------------------------------------------</PropertyValue><PropertyValue name="Item8.UseDefaultName">true</PropertyValue><PropertyValue name="Item8.Tab">General</PropertyValue><PropertyValue name="Item8.TabID">General</PropertyValue><PropertyValue name="Item8.OriginalTabID">General</PropertyValue><PropertyValue name="Item8.OriginalTab">General</PropertyValue><PropertyValue name="Item8.RecordType">1</PropertyValue><PropertyValue name="Item8.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item8.Position">9</PropertyValue><PropertyValue name="Item9.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item9.ID">D4BE2C728C895372C9BCA7FB9EE7E7E2</PropertyValue><PropertyValue name="Item9.Name">-&gt; GestureRecognizerOnTappedEvent</PropertyValue><PropertyValue name="Item9.UseDefaultName">true</PropertyValue><PropertyValue name="Item9.Tab">General</PropertyValue><PropertyValue name="Item9.TabID">General</PropertyValue><PropertyValue name="Item9.OriginalTabID">General</PropertyValue><PropertyValue name="Item9.OriginalTab">General</PropertyValue><PropertyValue name="Item9.RecordType">1</PropertyValue><PropertyValue name="Item9.Data">        if (_focusedObject == null)
+        {
+            return;
+        }
+
+        var rigidBody = _focusedObject.GetComponent&lt;Rigidbody&gt;();
+
+        if (rigidBody != null)
+        {
+            if (rigidBody.useGravity)
+            {
+                rigidBody.AddForce(-_hitInfo.normal * 100f);
+            }
+            else
+            {
+                rigidBody.useGravity = true;
+            }
+        }
+</PropertyValue><PropertyValue name="Item9.Position">10</PropertyValue><PropertyValue name="Item10.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item10.ID">CEB89B93FA4281120D51AAAF4211D937</PropertyValue><PropertyValue name="Item10.Name">-- HOLO101B -------------------------------------------</PropertyValue><PropertyValue name="Item10.UseDefaultName">true</PropertyValue><PropertyValue name="Item10.Tab">General</PropertyValue><PropertyValue name="Item10.TabID">General</PropertyValue><PropertyValue name="Item10.OriginalTabID">General</PropertyValue><PropertyValue name="Item10.OriginalTab">General</PropertyValue><PropertyValue name="Item10.RecordType">1</PropertyValue><PropertyValue name="Item10.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item10.Position">11</PropertyValue><PropertyValue name="Item11.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item11.ID">7D9ADE4602532918D8F2F853D80E1F66</PropertyValue><PropertyValue name="Item11.Name">Physics.Raycast</PropertyValue><PropertyValue name="Item11.UseDefaultName">true</PropertyValue><PropertyValue name="Item11.Tab">General</PropertyValue><PropertyValue name="Item11.TabID">General</PropertyValue><PropertyValue name="Item11.OriginalTabID">General</PropertyValue><PropertyValue name="Item11.OriginalTab">General</PropertyValue><PropertyValue name="Item11.RecordType">1</PropertyValue><PropertyValue name="Item11.Data">
+        if (Physics.Raycast(headPosition, gazeDirection, out _hitInfo))
+        {
+            // If the raycast hit a hologram, use that as the focused object.
+            // But not the spatial mapping!
+            var obj = _hitInfo.collider.gameObject;
+
+            if (!obj.name.StartsWith("spatial")) // Fugly...
+            {
+                _focusedObject = obj;
+                cursorRenderer.material = ActiveCursorMaterial;
+            }
+            else
+            {
+                _focusedObject = null;
+                cursorRenderer.material = InactiveCursorMaterial;
+            }
+
+            TheCursor.transform.position = _hitInfo.point;
+            TheCursor.transform.forward = _hitInfo.normal;
+        }
+</PropertyValue><PropertyValue name="Item11.Position">12</PropertyValue><PropertyValue name="Item12.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item12.ID">CEB89B93FA4281120D51AAAF4211D937</PropertyValue><PropertyValue name="Item12.Name">-- HOLO101C -------------------------------------------</PropertyValue><PropertyValue name="Item12.UseDefaultName">true</PropertyValue><PropertyValue name="Item12.Tab">General</PropertyValue><PropertyValue name="Item12.TabID">General</PropertyValue><PropertyValue name="Item12.OriginalTabID">General</PropertyValue><PropertyValue name="Item12.OriginalTab">General</PropertyValue><PropertyValue name="Item12.RecordType">1</PropertyValue><PropertyValue name="Item12.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item12.Position">13</PropertyValue><PropertyValue name="Item13.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item13.ID">CEB89B93FA4281120D51AAAF4211D937</PropertyValue><PropertyValue name="Item13.Name">-- Speech -------------------------------------------</PropertyValue><PropertyValue name="Item13.UseDefaultName">true</PropertyValue><PropertyValue name="Item13.Tab">General</PropertyValue><PropertyValue name="Item13.TabID">General</PropertyValue><PropertyValue name="Item13.OriginalTabID">General</PropertyValue><PropertyValue name="Item13.OriginalTab">General</PropertyValue><PropertyValue name="Item13.RecordType">1</PropertyValue><PropertyValue name="Item13.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item13.Position">14</PropertyValue><PropertyValue name="Item14.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item14.ID">FE64A61911FF4A3EF39BAC60D6A1D008</PropertyValue><PropertyValue name="Item14.Name">Fields</PropertyValue><PropertyValue name="Item14.UseDefaultName">true</PropertyValue><PropertyValue name="Item14.Tab">General</PropertyValue><PropertyValue name="Item14.TabID">General</PropertyValue><PropertyValue name="Item14.OriginalTabID">General</PropertyValue><PropertyValue name="Item14.OriginalTab">General</PropertyValue><PropertyValue name="Item14.RecordType">1</PropertyValue><PropertyValue name="Item14.Data">    private KeywordRecognizer _keywordRecognizer;
+    private readonly Dictionary&lt;string, System.Action&gt; _keywords = new Dictionary&lt;string, System.Action&gt;();
+    private readonly System.Random _random = new System.Random();
+    private GameObject _container;
+    private GameObject _firstCube;
+
+</PropertyValue><PropertyValue name="Item14.Position">15</PropertyValue><PropertyValue name="Item15.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item15.ID">F491D99126FE3F94A1AE0C504A9BD71C</PropertyValue><PropertyValue name="Item15.Name">-&gt; Start</PropertyValue><PropertyValue name="Item15.UseDefaultName">true</PropertyValue><PropertyValue name="Item15.Tab">General</PropertyValue><PropertyValue name="Item15.TabID">General</PropertyValue><PropertyValue name="Item15.OriginalTabID">General</PropertyValue><PropertyValue name="Item15.OriginalTab">General</PropertyValue><PropertyValue name="Item15.RecordType">1</PropertyValue><PropertyValue name="Item15.Data">        _container = GameObject.Find("Container");
+        _firstCube = GameObject.Find("Cube");
+
+        _keywords.Add("Add cube", AddCube);
+        _keywords.Add("Reset scene", ResetScene);
+
+        _keywordRecognizer = new KeywordRecognizer(_keywords.Keys.ToArray());
+        _keywordRecognizer.OnPhraseRecognized += OnPhraseRecognized;
+        _keywordRecognizer.Start();
+</PropertyValue><PropertyValue name="Item15.Position">16</PropertyValue><PropertyValue name="Item16.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item16.ID">0D94E709792D5CA34AEA3A797F1BA586</PropertyValue><PropertyValue name="Item16.Name">-&gt; AddCube 1</PropertyValue><PropertyValue name="Item16.UseDefaultName">true</PropertyValue><PropertyValue name="Item16.Tab">General</PropertyValue><PropertyValue name="Item16.TabID">General</PropertyValue><PropertyValue name="Item16.OriginalTabID">General</PropertyValue><PropertyValue name="Item16.OriginalTab">General</PropertyValue><PropertyValue name="Item16.RecordType">1</PropertyValue><PropertyValue name="Item16.Data">        var container = GameObject.Find("Container");
+
+        var newCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        newCube.transform.SetParent(container.transform, true);
+        newCube.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+
+        newCube.transform.rotation = Quaternion.Euler(
+            45f,
+            0,
+            45f);
+
+        newCube.transform.localPosition = new Vector3(0f, 0f, 0f);
+</PropertyValue><PropertyValue name="Item16.Position">17</PropertyValue><PropertyValue name="Item17.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item17.ID">CDEC7B2C366248FCFC6A90BF255A7070</PropertyValue><PropertyValue name="Item17.Name">-&gt; AddCube 2</PropertyValue><PropertyValue name="Item17.UseDefaultName">true</PropertyValue><PropertyValue name="Item17.Tab">General</PropertyValue><PropertyValue name="Item17.TabID">General</PropertyValue><PropertyValue name="Item17.OriginalTabID">General</PropertyValue><PropertyValue name="Item17.OriginalTab">General</PropertyValue><PropertyValue name="Item17.RecordType">1</PropertyValue><PropertyValue name="Item17.Data">
+        var rigidBody = newCube.AddComponent&lt;Rigidbody&gt;();
+        rigidBody.useGravity = false;
+</PropertyValue><PropertyValue name="Item17.Position">18</PropertyValue><PropertyValue name="Item18.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item18.ID">9BF983CC3284CE4F86324C634C91BDF3</PropertyValue><PropertyValue name="Item18.Name">-&gt; AddCube 3</PropertyValue><PropertyValue name="Item18.UseDefaultName">true</PropertyValue><PropertyValue name="Item18.Tab">General</PropertyValue><PropertyValue name="Item18.TabID">General</PropertyValue><PropertyValue name="Item18.OriginalTabID">General</PropertyValue><PropertyValue name="Item18.OriginalTab">General</PropertyValue><PropertyValue name="Item18.RecordType">1</PropertyValue><PropertyValue name="Item18.Data">
+        var renderer = _firstCube.GetComponent&lt;Renderer&gt;();
+
+        var material = new Material(renderer.material.shader);
+
+        var color = new Color(
+            (float)_random.NextDouble(),
+            (float)_random.NextDouble(),
+            (float)_random.NextDouble());
+
+        material.SetColor("_Color", color);
+
+        var newRenderer = newCube.GetComponent&lt;Renderer&gt;();
+        newRenderer.material = material;
+</PropertyValue><PropertyValue name="Item18.Position">19</PropertyValue><PropertyValue name="Item19.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item19.ID">A3985FB711C0334AC885A6E0E43D5142</PropertyValue><PropertyValue name="Item19.Name">-&gt; OnPhraseRecognized</PropertyValue><PropertyValue name="Item19.UseDefaultName">true</PropertyValue><PropertyValue name="Item19.Tab">General</PropertyValue><PropertyValue name="Item19.TabID">General</PropertyValue><PropertyValue name="Item19.OriginalTabID">General</PropertyValue><PropertyValue name="Item19.OriginalTab">General</PropertyValue><PropertyValue name="Item19.RecordType">1</PropertyValue><PropertyValue name="Item19.Data">        Action keywordAction;
+        if (_keywords.TryGetValue(args.text, out keywordAction))
+        {
+            keywordAction.Invoke();
+        }
+</PropertyValue><PropertyValue name="Item19.Position">20</PropertyValue><PropertyValue name="Item20.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item20.ID">ACFE5C650027F3ACB704DC8A0CF0F143</PropertyValue><PropertyValue name="Item20.Name">-&gt; ResetScene</PropertyValue><PropertyValue name="Item20.UseDefaultName">true</PropertyValue><PropertyValue name="Item20.Tab">General</PropertyValue><PropertyValue name="Item20.TabID">General</PropertyValue><PropertyValue name="Item20.OriginalTabID">General</PropertyValue><PropertyValue name="Item20.OriginalTab">General</PropertyValue><PropertyValue name="Item20.RecordType">1</PropertyValue><PropertyValue name="Item20.Data">        foreach (Transform t in _container.transform)
+        {
+            var cube = t.gameObject;
+            Destroy(cube);
+        }
+</PropertyValue><PropertyValue name="Item20.Position">21</PropertyValue><PropertyValue name="Item21.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item21.ID">CEB89B93FA4281120D51AAAF4211D937</PropertyValue><PropertyValue name="Item21.Name">-- HOLO101 -------------------------------------------</PropertyValue><PropertyValue name="Item21.UseDefaultName">true</PropertyValue><PropertyValue name="Item21.Tab">General</PropertyValue><PropertyValue name="Item21.TabID">General</PropertyValue><PropertyValue name="Item21.OriginalTabID">General</PropertyValue><PropertyValue name="Item21.OriginalTab">General</PropertyValue><PropertyValue name="Item21.RecordType">1</PropertyValue><PropertyValue name="Item21.Data">    public GameObject TheCursor;
+    public Material InactiveCursorMaterial;
+    public Material ActiveCursorMaterial;
+</PropertyValue><PropertyValue name="Item21.Position">22</PropertyValue><PropertyValue name="ItemCount">22</PropertyValue></Category></Category></UserSettings>
