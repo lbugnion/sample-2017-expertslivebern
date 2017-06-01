@@ -1,11 +1,11 @@
-# sample-2017-xamarinday
+# Closing Keynote: HoloLens 101: First experiences with holographic computing
 My code samples for the Experts Live conference, 17th of May 2017, Bern, Switzerland
 
 # Presentation details, Slides
 
 You can see the slides and details here:
 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=TODO
+http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017011
 
 # Content
 
